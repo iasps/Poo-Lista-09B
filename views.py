@@ -18,10 +18,10 @@ class View:
     return lista
 
   @classmethod
-  def cliente_atualizar(cls):
+  def cliente_atualizar(cls, id, nome, email, fone):
     cliente = Cliente(id, nome, email, fone)
     NCliente.atualizar(cliente)
 
   @classmethod
-  def cliente_excluir(obj):
+  def cliente_excluir(cls, obj):
     NCliente.excluir(obj)
