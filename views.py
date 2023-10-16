@@ -9,7 +9,6 @@ class View:
   @classmethod
   def cliente_listar(cls):
     return NCliente.listar()
-
   @classmethod
   def lista_de_clientes(cls):
     lista = []
